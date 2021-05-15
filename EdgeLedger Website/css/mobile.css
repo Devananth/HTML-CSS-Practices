@@ -1,0 +1,62 @@
+#what .items  {
+    display: block;
+    padding : 1rem;
+}
+
+#what .items .item {
+    display : flex;
+    text-align: left;
+    
+}
+
+#what .items .item i{
+    align-self : center;
+    margin-right : 1rem;
+}
+
+@media (max-width : 500px) {
+
+    #navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar .logo{
+        margin-bottom : .5rem;
+    }
+
+    #navbar ul {
+        padding : .5rem;
+    }
+
+    #who .who-img{
+        display : none;
+    }
+
+    #contact{
+        flex-direction: column;
+    }
+    
+    #contact .map{
+        height : 400px;
+        width : 100%;
+    
+    }
+}
+
+@media (max-height : 568px){
+
+    .l-heading {
+        font-size: 3rem;
+    }
+    
+}
+
+@media ( max-width : 280px) {
+    .l-heading {
+        font-size: 3rem;
+    }
+}
+
+
+
